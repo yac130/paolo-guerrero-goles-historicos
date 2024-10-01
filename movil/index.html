@@ -1001,5 +1001,18 @@
 
     </script>
 
+    <!-- script para detectar si el usuario está usando desktop -->
+    <script>
+        function redirigirSiEsDesktop() {
+            // Verificar si el agente de usuario corresponde a un dispositivo móvil
+            if (!/Mobi|Android|iPhone|iPod|BlackBerry|Windows Phone|webOS/i.test(navigator.userAgent)) {
+                // Redirigir a la URL deseada para la versión de escritorio
+                window.location.href = "./index.html";
+            }
+        }
+        // Ejecutar la función cuando la página se cargue
+        window.onload = redirigirSiEsDesktop;
+    </script>
+
 </body>
 </html>
