@@ -1,0 +1,445 @@
+body, 
+html {	
+    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/bg-paolo.gif') no-repeat center top;  
+    background-size: cover;  
+    box-sizing: border-box;    
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;    
+    margin: 0;   
+    padding: 0;
+
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.clear{
+    clear: both;
+}
+
+@font-face {
+    font-family: 'fontspring_demo_-_bebas_neuBd';
+    src: url('../fonts/fontspring-demo-bebasneuepro-bold-webfont.woff2') format('woff2'),
+         url('../fonts/fontspring-demo-bebasneuepro-bold-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'bebas_neue_promiddle';
+    src: url('../fonts/fontspring-demo-bebasneuepro-middle-webfont.woff2') format('woff2'),
+         url('../fonts/fontspring-demo-bebasneuepro-middle-webfont.woff') format('woff');
+}
+
+
+#social{ 
+    cursor: pointer;  
+    margin: 0 auto;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+    #social ul{
+        display: inline-block;
+        margin: 0 auto;
+        padding: 0;
+        vertical-align: middle;
+    }
+        #social ul li{
+            display: inline-block;
+            margin: 0 3px;
+            vertical-align: middle;
+        }
+            #social ul li a{
+                cursor: pointer;    
+                height: 36px;
+                width: 36px;
+            }
+                #fb{
+                    background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/abuso-infantil/img/fb-icon-negro.png?v2) no-repeat 0 0;
+                    background-size: 100% !important;
+                    border: none;
+                    display: inline-block;
+                    height: 36px;
+                    text-indent: -9999px;
+                    width: 36px;
+                }
+                #wst{                
+                    background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/abuso-infantil/img/wsp-icon-negro.png?v2) no-repeat 0 0 !important;
+                    background-size: 100% !important;
+                    border: none;
+                    display: none;
+                    height: 36px;
+                    text-indent: -9999px;
+                    width: 36px;
+                }
+                #tw{            
+                    background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/abuso-infantil/img/tw-icon-negro.png?v2) no-repeat 0 0 !important;
+                    background-size: 100% !important;
+                    border: none;
+                    display: inline-block;
+                    height: 36px;
+                    text-indent: -9999px;
+                    width: 36px;
+                }
+
+.main-popup{
+    background-color: rgba(255, 255, 255, 0.5);
+    display: none;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+    .box-popup{
+        background-color: #fff;
+        border: 4px solid #000;       
+        margin: 0 auto;
+        max-width: 460px;        
+        padding: 10px 5px 5px;
+        position: relative;
+        text-align: center;
+        transform: translate(0, -50%);
+        top: 50%;        
+    }
+        .btn-cerrar{
+            background-color: #000;
+            color: #fff;
+            cursor: pointer;
+            font: 24px / 32px "Bebas Neue", sans-serif;
+            padding: 0 10px;
+            position: absolute;       
+            right: -15px;
+            top: -15px;     
+        }
+        .box-cabecera{
+            border-bottom: 1px solid #000;
+            margin: 0 auto;
+            max-width: 330px;
+            padding-bottom: 5px;
+            position: relative;
+            text-align: left;
+        }
+            .box-cabecera img{
+                display: inline-block;
+                max-width: 40px;
+                vertical-align: top;
+            }
+            .box-cabecera h6{
+                color: #000;
+                display: inline-block;
+                font: 32px/1.2 "Bebas Neue", sans-serif;
+                margin: 0 auto;
+                padding: 4px 5px;
+                vertical-align: top;
+            }
+            span.fecha{
+                background-color: #FF0707;
+                font: 19px/1.2 "Bebas Neue", sans-serif;
+                padding: 0 5px;
+                position: absolute;
+                right: 0;
+                top: 10px;
+            }
+        .box-popup h5{
+            color: #000;
+            font: 38px/1.2 "Bebas Neue", sans-serif;
+            margin: 10px auto;
+            text-align: center;
+        }
+            .box-popup h5 span{
+                display: block;
+                font: 17px/1.2 "Roboto", sans-serif;
+                font-weight: 600;
+            }
+img.guerrero-portada{
+    display: block;
+    margin: 0 auto;
+    max-width: 250px; 
+}            
+.box-main{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 30px;
+    text-align: center;
+}
+    .box-indicacion{
+        background-color: #FF0707;
+        border: 3px solid #000;
+        border-radius: 20px;
+        box-sizing: border-box;
+        margin: 0 auto 20px;
+        max-width: 210px;
+        text-align: left;
+    }
+        .box-indicacion img{
+            display: inline-block;
+            margin-left: -1px;
+            max-width: 30px;
+            vertical-align: top;
+        }
+        .box-indicacion p{
+            display: inline-block;
+            font: 14px/1.2 "Roboto", sans-serif;
+            font-weight: 700;
+            margin: 0 auto;
+            padding: 5px 10px;
+            text-align: center;
+        }
+    .box-columna-pelota{
+        display: inline-block;
+        max-width: 225px;
+        vertical-align: top;
+    }
+        .box-main .derecha ul{
+            text-align: right;
+        }
+        .box-columna-pelota ul{
+            margin: 0 auto;
+            padding: 0;
+            text-align: left;
+        }
+            .box-columna-pelota ul li{
+                background-image: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota.png');
+                background-repeat: no-repeat;
+                background-size: 100%;
+                cursor: pointer;
+                display: inline-block;
+                height: 57px;
+                margin: 3px;
+                max-width: 55px;
+                vertical-align: top;
+                width: 100%;
+            }
+                #btn-video-1.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-1.png');
+                    background-size: 100%;
+                }
+                #btn-video-2.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-2.png');
+                    background-size: 100%;
+                }
+                #btn-video-3.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-3.png');
+                    background-size: 100%;
+                }
+                #btn-video-4.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-4.png');
+                    background-size: 100%;
+                }
+                #btn-video-5.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-5.png');
+                    background-size: 100%;
+                }
+                #btn-video-6.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-6.png');
+                    background-size: 100%;
+                }
+                #btn-video-7.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-7.png');
+                    background-size: 100%;
+                }
+                #btn-video-8.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-8.png');
+                    background-size: 100%;
+                }
+                #btn-video-9.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-9.png');
+                    background-size: 100%;
+                }
+                #btn-video-10.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-10.png');
+                    background-size: 100%;
+                }
+                #btn-video-11.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-11.png');
+                    background-size: 100%;
+                }
+                #btn-video-12.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-12.png');
+                    background-size: 100%;
+                }
+                #btn-video-13.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-13.png');
+                    background-size: 100%;
+                }
+                #btn-video-14.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-14.png');
+                    background-size: 100%;
+                }
+                #btn-video-15.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-15.png');
+                    background-size: 100%;
+                }
+                #btn-video-16.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-16.png');
+                    background-size: 100%;
+                }
+                #btn-video-17.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-17.png');
+                    background-size: 100%;
+                }
+                #btn-video-18.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-18.png');
+                    background-size: 100%;
+                }
+                #btn-video-19.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-19.png');
+                    background-size: 100%;
+                }
+                #btn-video-20.active{
+                    background: url('/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-20.png');
+                    background-size: 100%;
+                }
+                #btn-video-21.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-21.png');
+                    background-size: 100%;
+                }
+                #btn-video-22.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-22.png');
+                    background-size: 100%;
+                }
+                #btn-video-23.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-23.png');
+                    background-size: 100%;
+                }
+                #btn-video-24.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-24.png');
+                    background-size: 100%;
+                }
+                #btn-video-25.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-25.png');
+                    background-size: 100%;
+                }
+                #btn-video-26.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-26.png');
+                    background-size: 100%;
+                }
+                #btn-video-27.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-27.png');
+                    background-size: 100%;
+                }
+                #btn-video-28.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-28.png');
+                    background-size: 100%;
+                }
+                #btn-video-29.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-29.png');
+                    background-size: 100%;
+                }
+                #btn-video-30.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-30.png');
+                    background-size: 100%;
+                }
+                #btn-video-31.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-31.png');
+                    background-size: 100%;
+                }
+                #btn-video-32.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-32.png');
+                    background-size: 100%;
+                }
+                #btn-video-33.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-33.png');
+                    background-size: 100%;
+                }
+                #btn-video-34.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-34.png');
+                    background-size: 100%;
+                }
+                #btn-video-35.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-35.png');
+                    background-size: 100%;
+                }
+                #btn-video-36.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-36.png');
+                    background-size: 100%;
+                }
+                #btn-video-37.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-37.png');
+                    background-size: 100%;
+                }
+                #btn-video-38.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-38.png');
+                    background-size: 100%;
+                }
+                #btn-video-39.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-39.png');
+                    background-size: 100%;
+                }
+                #btn-video-40.active{
+                    background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota-40.png');
+                    background-size: 100%;
+                }
+    .box-titular{
+        display: inline-block;
+        max-width: 300px;
+        vertical-align: top;
+    }
+        .box-titular img{
+           
+        }
+        .box-titular h1{
+            color: #000;
+            font: 40px/1.2 "Bebas Neue", sans-serif;
+            margin: 0 auto;
+        }
+        .box-titular h2{
+            color: #000;
+            font: 16px/1.2 "Roboto", sans-serif;
+            font-weight: 500;
+            margin: 0 auto;
+        }
+            .box-titular h2 span{
+                color: #FF0707;
+            }
+.box-footer{
+    background-color: #000;
+    padding: 20px 0;
+}
+    .box-footer img{
+        display: block;
+        margin: 0 auto;
+        max-width: 120px;
+        padding: 20px 0;
+    }
+    .box-footer p{
+        font: 15px / 1.2 "Roboto", sans-serif;
+        margin: 0 auto;
+        padding-bottom: 10px;
+        text-align: center; 
+    }
+        .box-footer p span{
+            font-weight: 600;
+        }
+
+
+@media only screen and (max-height: 732px) {  
+
+    body img.guerrero-portada{
+        max-width: 180px !important;
+    }
+
+}
+
+@media only screen and (max-height: 768px) {  
+
+    body, 
+    html {
+        background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/bg-paolo-768.jpg') no-repeat center top;  
+        background-size: cover;  
+    }
+    body img.guerrero-portada{
+        max-width: 300px;
+    }
+
+}
+
+@media only screen and (min-height: 1024px) {  
+
+    body, 
+    html {
+        background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/bg-paolo-1024.jpg') no-repeat center top;  
+        background-size: cover;  
+    }
+    img.guerrero-portada{
+        max-width: 310px;
+    }
+
+}
