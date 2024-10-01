@@ -18,13 +18,13 @@ html {
 
 @font-face {
     font-family: 'fontspring_demo_-_bebas_neuBd';
-    src: url('../fonts/fontspring-demo-bebasneuepro-bold-webfont.woff2') format('woff2'),
-         url('../fonts/fontspring-demo-bebasneuepro-bold-webfont.woff') format('woff');
+    src: url('https://yac130.github.io/paolo-guerrero-goles-historicos/fonts/fontspring-demo-bebasneuepro-bold-webfont.woff2') format('woff2'),
+         url('https://yac130.github.io/paolo-guerrero-goles-historicos/fonts/fontspring-demo-bebasneuepro-bold-webfont.woff') format('woff');
 }
 @font-face {
     font-family: 'bebas_neue_promiddle';
-    src: url('../fonts/fontspring-demo-bebasneuepro-middle-webfont.woff2') format('woff2'),
-         url('../fonts/fontspring-demo-bebasneuepro-middle-webfont.woff') format('woff');
+    src: url('https://yac130.github.io/paolo-guerrero-goles-historicos/fonts/fontspring-demo-bebasneuepro-middle-webfont.woff2') format('woff2'),
+         url('https://yac130.github.io/paolo-guerrero-goles-historicos/fonts/fontspring-demo-bebasneuepro-middle-webfont.woff') format('woff');
 }
 
 
