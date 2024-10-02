@@ -1,7 +1,7 @@
 body, 
 html {	
     background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/bg-paolo.gif') no-repeat center top;  
-    background-size: cover;  
+    background-size: 100%;  
     box-sizing: border-box;    
     color: #fff;
     font-style: normal;
@@ -11,6 +11,7 @@ html {
 
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-attachment: fixed;
 }
 .clear{
     clear: both;
