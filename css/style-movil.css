@@ -109,8 +109,8 @@ html {
             font: 24px / 32px "Bebas Neue", sans-serif;
             padding: 0 10px;
             position: absolute;       
-            right: -15px;
-            top: -15px;     
+            right: 5px;
+            top: 5px;     
         }
         .box-cabecera{
             border-bottom: 1px solid #000;
