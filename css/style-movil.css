@@ -1,7 +1,10 @@
 body, 
 html {	
-    background: url('https://yac130.github.io/paolo-guerrero-goles-historicos/img/bg-paolo-3.jpg') no-repeat center top;  
-    background-size: cover;  
+    background-color: #d8d8d8;
+    background-image: url('https://yac130.github.io/paolo-guerrero-goles-historicos/img/bg-paolo-3-movil.jpg');  
+    background-position: center top;  
+    background-repeat: no-repeat;
+    background-size: 100%;  
     box-sizing: border-box;    
     color: #fff;
     font-style: normal;
