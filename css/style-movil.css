@@ -500,7 +500,9 @@ h2.bajada-movil{
 @media only screen and (max-width: 412px) {
     
     .box-titular{
-        width: 49%;
+        margin: 0 15px;
+        max-width: 42%;       
+        width: 49%;        
     }
 }
 
