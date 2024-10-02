@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paolo Guerrero</title>
     
-    <link rel="stylesheet" href="https://yac130.github.io/paolo-guerrero-goles-historicos/css/style.css?v15"/>
+    <link rel="stylesheet" href="https://yac130.github.io/paolo-guerrero-goles-historicos/css/style.css?v16"/>
     <!--<link rel="stylesheet" href="./css/style.css?v2">-->
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -928,16 +928,13 @@
         function redirigirSiEsMovil() {
             // Verificar si el agente de usuario corresponde a un dispositivo móvil
             if (/Mobi|Android|iPhone|iPod|BlackBerry|Windows Phone|webOS/i.test(navigator.userAgent)) {
-                // Mostrar el div de cargando
+                // Mostrar el div de cargando solo en móvil
                 document.getElementById("cargando").style.display = "flex";
 
                 // Redirigir a la URL deseada después de un breve delay
                 setTimeout(function() {
                     window.location.href = "https://yac130.github.io/paolo-guerrero-goles-historicos/movil/";
                 }, 1000);  // Puedes ajustar el tiempo si es necesario
-            } else {
-                // Si no es móvil, ocultar el div de cargando
-                document.getElementById("cargando").style.display = "none";
             }
         }
 
