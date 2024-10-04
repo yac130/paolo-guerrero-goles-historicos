@@ -509,6 +509,138 @@ img.guerrero-portada{
             width: 100%;  
             z-index: 9999;
         }
+
+.box-main-desktop{
+    display: block;
+}        
+.box-main-movil{
+    display: none;
+}
+
+     
+
+
+@media only screen and (max-width: 640px) {  
+
+    body, 
+    html {	
+        background-color: #d8d8d8;
+        background-image: url('https://yac130.github.io/paolo-guerrero-goles-historicos/img/bg-paolo-3-movil.jpg');  
+        background-position: center top;  
+        background-repeat: no-repeat;
+        background-size: 100%;  
+        box-sizing: border-box;    
+        color: #fff;
+        font-style: normal;
+        font-weight: normal;    
+        margin: 0;   
+        padding: 0;
+
+        -webkit-font-smoothing:antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    .box-indicacion{
+        background-color: #FF0707;
+        border: 3px solid #000;
+        border-radius: 20px;
+        box-sizing: border-box;
+        margin: 0 auto 20px;
+        max-width: 210px;
+        text-align: left;
+    }
+        .box-indicacion img{
+            display: inline-block;
+            margin-left: -1px;
+            max-width: 30px;
+            vertical-align: top;
+        }
+        .box-indicacion p{
+            display: inline-block;
+            font: 14px/1.2 "Roboto", sans-serif;
+            font-weight: 700;
+            margin: 0 auto;
+            padding: 5px 10px;
+            text-align: center;
+        }
+    .box-columna-pelota{
+        display: inline-block;
+        max-width: 335px;
+        vertical-align: top;
+        width: 100%;
+    }
+        .box-main .derecha ul{
+            text-align: right;
+        }
+        .box-columna-pelota ul{
+            margin: 0 auto;
+            padding: 0;
+            text-align: center;
+        }
+            .box-columna-pelota ul li{
+                background-image: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/paolo-guerrero-goles-historicos/img/pelota.png');
+                background-repeat: no-repeat;
+                background-size: 100%;
+                cursor: pointer;
+                display: inline-block;
+                height: 57px;
+                margin: 3px;
+                max-width: 55px;
+                vertical-align: top;
+                width: 100%;
+            }
+
+    h2.bajada-movil{
+    color: #000;
+    font: 16px/1.3 "Roboto", sans-serif;
+    font-weight: 500;
+    margin: 20px auto;
+    max-width: 350px;
+}
+    h2.bajada-movil span{
+        color: #FF0808;
+        font-weight: 700;
+    }
+
+
+    .box-main-desktop{
+        display: none;
+    }        
+    .box-main-movil{
+        display: block;
+    }
+
+    .box-titular{
+        display: inline-block;
+        margin: 5px 0;
+        max-width: 40%;
+        vertical-align: top;
+    }
+        .box-titular img{
+            max-width: 90%;
+        }
+        .box-titular h1{
+            color: #000;
+            font: 40px/1.2 "Bebas Neue", sans-serif;
+            margin: 0 auto;
+        }
+        .box-titular h2{
+            color: #000;
+            font: 16px/1.2 "Roboto", sans-serif;
+            font-weight: 500;
+            margin: 0 auto;
+        }
+            .box-titular h2 span{
+                color: #FF0707;
+            }
+    .box-columna-vertical{
+        display: inline-block;
+        vertical-align: top;
+        width: 13%;
+    }  
+
+}
+
 @media only screen and (max-height: 732px) {  
 
     body img.guerrero-portada{
